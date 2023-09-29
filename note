@@ -1,0 +1,11 @@
+page.tsx 约等于 index.html
+在app目录里mkdir+page.tsx来使用file-system based router
+可以在layout里设置header/footer把主体包起来
+sync read does not wait
+js array.map()
+The map() method is an iterative method. It calls a provided callbackFn function once for each element in an array and constructs a new array from the results.
+[] to create dynamic path
+url会以参数的形式被pass into page.tsx
+所以可以通过const PostPage = (props: any)，props.params.[dynamic name]来获取dynamic的info
+each display element -> seperate file
+/ -> public folder
