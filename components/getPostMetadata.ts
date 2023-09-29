@@ -1,5 +1,5 @@
 import Link from "next/link";
-import {PostMetadata} from "../componentsPostMetadata";
+import {PostMetadata} from "../components/PostMetadata";
 import fs from "fs";
 import matter from "gray-matter";
 
