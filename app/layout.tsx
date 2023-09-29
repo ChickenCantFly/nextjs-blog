@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 const header = (
   <header className="text-center bg-slate-800 p-6 my-6 rounded-md">
     <div>
-      <Image src="/logo.png" width={60} height={60} className='mx-auto'></Image>
+      <Image src="/logo.png" width={60} height={60} className='mx-auto' alt="logo"></Image>
       <Link href="/">
         <h1 className="text-3xl font-bold underline text-white font-blod">Blog tutorial</h1>
       </Link>
